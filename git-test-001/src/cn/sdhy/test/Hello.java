@@ -19,5 +19,21 @@ public class Hello {
         int i = 0;
         System.out.println("zhe bushi ouran :"+i);
         System.out.println("thank you");
+        System.out.println("thank you");
+        System.out.println("thank you");
+        System.out.println("thank you");
+    }
+    public void test1(){
+        int i = 0;
+        System.out.println("zhe bushi ouran :"+i);
+        System.out.println("thank you");
+        System.out.println("thank you");
+        System.out.println("thank you");
+        System.out.println("thank you");
+    }
+    public void test2(){
+        int i = 0;
+        System.out.println("zhe bushi ouran :"+i);
+        System.out.println("thank you");
     }
 }
