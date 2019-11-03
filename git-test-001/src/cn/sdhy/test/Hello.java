@@ -11,6 +11,7 @@ public class Hello {
         System.out.println("the first project to git");
         System.out.println("the first project to git");
         // hello test git
+         System.out.println("github had been modified");
     }
 
     public void test(){
