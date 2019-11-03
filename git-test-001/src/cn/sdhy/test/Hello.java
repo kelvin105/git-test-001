@@ -11,4 +11,10 @@ public class Hello {
         System.out.println("the first project to git");
         System.out.println("the first project to git");
     }
+
+    public void test(){
+        int i = 0;
+        i += 10;
+        System.out.println(i);
+    }
 }
