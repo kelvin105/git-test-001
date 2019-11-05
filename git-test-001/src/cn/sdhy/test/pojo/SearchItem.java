@@ -1,9 +1,16 @@
 package cn.sdhy.test.pojo;
 
 import java.io.Serializable;
+import java.util.Date;
 
 public class SearchItem implements Serializable {
     private Integer num;
+
+    private long id;
+    private String name;
+    private String age;
+    private String gender;
+    private Date birthday;
 
     public Integer getNum() {
         return num;
@@ -11,15 +18,7 @@ public class SearchItem implements Serializable {
 
     public void setNum(Integer num) {
         this.num = num;
-import java.util.Date;
-
-
-public class SearchItem implements Serializable {
-    private long id;
-    private String name;
-    private String age;
-    private String gender;
-    private Date birthday;
+    }
 
     public long getId() {
         return id;
