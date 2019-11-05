@@ -7,12 +7,24 @@ public class StudentA implements Serializable {
     private String age;
     private Boolean sex;
 
+    private String c_name;
+    private int[] cards;
+
     public String getB_name() {
         return b_name;
     }
 
     public void setB_name(String b_name) {
         this.b_name = b_name;
+    }
+
+
+    public String getC_name() {
+        return c_name;
+    }
+
+    public void setC_name(String c_name) {
+        this.c_name = c_name;
     }
 
     public String getAge() {
@@ -27,7 +39,14 @@ public class StudentA implements Serializable {
         return sex;
     }
 
-    public void setSex(Boolean sex) {
+    public void setSex(Boolean sex){
         this.sex = sex;
+    }
+    public int[] getCards() {
+        return cards;
+    }
+
+    public void setCards(int[] cards) {
+        this.cards = cards;
     }
 }
